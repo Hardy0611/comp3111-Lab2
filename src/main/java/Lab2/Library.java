@@ -3,8 +3,9 @@
  */
 package Lab2;
 
+import java.util.Arrays;
 import comp3111.lab2.ex1.Book;
-//import comp3111.lab2.ex2.*;
+import comp3111.lab2.ex2.*;
 
 public class Library {
 	public static void main (String arg[]) {
@@ -15,13 +16,13 @@ public class Library {
 			String anotherArray[] = b.getChapters();
 			
 			System.out.println("There are " + anotherArray.length + " chapters.");
-			System.out.println(java.util.Arrays.toString(anotherArray));
+			System.out.println(Arrays.toString(anotherArray));
 		
-			/*Computer a = new MobileComputer();
+			Computer a = new MobileComputer();
 			for (int i = 0; i < 10; i++) {
 				a.work();
 			}
-			
+			/*
 			Charger c = new Charger();
 			Phone p = new Phone();
 			MobileComputer m = new MobileComputer();
