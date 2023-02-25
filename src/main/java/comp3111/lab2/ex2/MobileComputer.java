@@ -1,6 +1,6 @@
 package comp3111.lab2.ex2;
 
-public class MobileComputer extends Computer {
+public class MobileComputer extends Computer implements Chargeable{
 	private int battery;
 	
 	public MobileComputer() {
@@ -20,8 +20,11 @@ public class MobileComputer extends Computer {
 	}
 	
 	public void charge() {
-		if (this.battery < 10)
+		if (this.battery < 10) {
 			this.battery++;
+			System.out.println("Charge this MobileComputer");
+		}
+			
 	}
 	
 }
