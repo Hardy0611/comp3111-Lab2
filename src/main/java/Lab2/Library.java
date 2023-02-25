@@ -22,13 +22,13 @@ public class Library {
 			for (int i = 0; i < 10; i++) {
 				a.work();
 			}
-			/*
+			
 			Charger c = new Charger();
 			Phone p = new Phone();
 			MobileComputer m = new MobileComputer();
 			
 			c.charge(p);
-			c.charge(m);*/
+			c.charge(m);
 	
 	
 	}
